@@ -828,3 +828,183 @@ font-size: 3rem;
     text-shadow: 0 0 25px #a78bfa, 0 0 40px #ec4899;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Responsive Enhancements ===== */
+
+/* 📱 Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .section {
+    padding: 40px 10%;
+  }
+
+  .hero-name {
+    font-size: 3.8rem;
+  }
+
+  .hero-role {
+    font-size: 1.4rem;
+  }
+
+  .about-card {
+    max-width: 600px;
+    padding: 25px 30px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
+/* 📱 Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  /* General layout */
+  .section {
+    padding: 60px 8%;
+    text-align: center;
+  }
+
+  /* Hero section */
+  .hero-name {
+    font-size: 2.6rem;
+  }
+
+  .hero-role {
+    font-size: 1.2rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* About section */
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-card {
+    padding: 20px 25px;
+  }
+
+  /* Skills section */
+  .skills-row span {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  /* Projects section */
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .projects-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-card-1 img,
+  .project-card-2 img {
+    height: 200px;
+  }
+
+  /* Certificates section */
+  .certificates-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cert-btn {
+    width: 90%;
+    font-size: 0.95rem;
+  }
+
+  .cert-modal img {
+    max-width: 95%;
+    max-height: 70vh;
+  }
+
+  /* Contact section */
+  .contact-title {
+    font-size: 2.2rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+
+  .contact-icons {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .contact-icon {
+    font-size: 1.6rem;
+    padding: 12px;
+  }
+
+  .email-link {
+    font-size: 1rem;
+  }
+}
+
+/* 📱 Small Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 2.1rem;
+  }
+
+  .hero-role {
+    font-size: 1rem;
+  }
+
+  .hero-desc {
+    font-size: 0.9rem;
+  }
+
+  .about-card {
+    padding: 15px 20px;
+  }
+
+  .project-card-1 h3,
+  .project-card-2 h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-btn-1,
+  .project-btn-2 {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+
+  .cert-btn {
+    padding: 10px 20px;
+  }
+
+  .contact-icon {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+}
